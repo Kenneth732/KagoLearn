@@ -109,3 +109,65 @@
     overflow: hidden;
   }
   
+  body {
+    font-family: var(--font-family-secondary);
+    font-size: var(--fs-md);
+    font-weight: var(--fw-regular);
+    color: var(--color-text);
+    margin-top: var(--height-header);
+  }
+  
+  /* Reusable Classes
+  -------------------------------------------------------------*/
+  .section {
+    padding: 12rem 0 8rem;
+  }
+  
+  .section__header {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  
+  .section__title {
+    font-size: var(--fs-xxl);
+    color: var(--color-title);
+    margin-bottom: 2rem;
+  }
+  
+  .section__subtitle {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-bold);
+    color: var(--color-primary);
+    font-family: var(--font-family-primary);
+  }
+  
+  .container {
+    width: 90%;
+    max-width: var(--width-container);
+    margin: auto;
+  }
+  
+  .d-grid {
+    display: grid;
+    gap: 3rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    border-radius: var(--border-radius-sm);
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-regular);
+    transition: var(--transition);
+  }
+  
+  .btn--primary {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+  }
+  
+  .btn--primary:hover {
+    background-color: var(--color-primary-light);
+  }
+  
+  /* Header
