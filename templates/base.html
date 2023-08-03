@@ -24,6 +24,41 @@
 </head>
 
 <body>
+    <!--==================== Header =======================-->
+    <header id="header" class="header">
+        <nav class="nav container">
+            <a href="{{ url_for('index') }}" class="nav__brand">
+                Kago<span>Learn</span>
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="{{ url_for('index') }}" class="nav__link nav__link--active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="{{ url_for('about') }}" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#destination" class="nav__link">Destinations</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#discover" class="nav__link">Discover</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="javascript:void(0)" class="btn btn--primary">
+                            Sign in
+                        </a>
+                    </li>
+                </ul>
+                <span class="nav__close">
+                    <i id="nav-close" class="ri-close-line"></i>
+                </span>
+            </div>
+            <span class="nav__open">
+                <i id="nav-open" class="ri-menu-5-line"></i>
+            </span>
+        </nav>
+    </header>
 
 
         <!--==================== Swiper JS =======================-->
